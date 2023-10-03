@@ -38,11 +38,8 @@ export default function Water() {
             <div className="quantity">
               <h3>Quantity:</h3>
               <p className="quantity-desc">
-                <span className="minus" onClick=""><AiOutlineMinus/>
-                </span>
-                <span className="num" onClick="">0
-                </span>
-                <span className="plus" onClick=""><AiOutlinePlus/>
+              <span className="num">
+                  In Stock
                 </span>
               </p>
             </div>
@@ -52,7 +49,10 @@ export default function Water() {
           </div>
       </div>
       <div className='peep-conainer'>
-            You may also like
+      <h3>You may also like</h3>
+            <Link href="/vortex">
+            <img src={"https://i5.walmartimages.com/seo/Outdoor-Products-Vortex-30-Ltr-Backpack-with-Bottle-Blue-Unisex-Adult-Teen_0d39c69f-989c-43f9-bb05-28d3588eec6e.0f11952f5ab8b4dc01728b7830bf81d1.jpeg?"} data-was-processed="true" width={250} height={250} className="product-image-T" />
+            </Link>
       </div>
     </div>
   )
