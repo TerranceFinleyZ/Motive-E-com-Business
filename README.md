@@ -5,3 +5,4 @@ Fully Reactive and scalable E-com business made in Next.js, Sanity and Stripe
 ![Screenshot (25)](https://github.com/TerranceFinleyZ/Motive-E-com-Business/assets/112042894/06e587be-d4d6-4a58-b93f-aa91ce84c507)
 ![Screenshot (26)](https://github.com/TerranceFinleyZ/Motive-E-com-Business/assets/112042894/86111e42-b8d2-4cf3-a650-dca705b77511)
 ![Screenshot (27)](https://github.com/TerranceFinleyZ/Motive-E-com-Business/assets/112042894/c3a189ee-1910-47da-98c0-0512c6644acb)
+![Screenshot (29)](https://github.com/TerranceFinleyZ/Motive-E-com-Business/assets/112042894/f0a42544-7003-4cfc-8d4a-34be3015fcb3)
