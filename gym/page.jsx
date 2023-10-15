@@ -38,21 +38,27 @@ export default function Water() {
             <div className="quantity">
               <h3>Quantity:</h3>
               <p className="quantity-desc">
-                <span className="minus" onClick=""><AiOutlineMinus/>
-                </span>
-                <span className="num" onClick="">0
-                </span>
-                <span className="plus" onClick=""><AiOutlinePlus/>
+              <span className="num">
+                  In Stock
                 </span>
               </p>
             </div>
             <div className='buttons'>
-              <button type="button" className="buy-now" onClick="">Buy Now</button>
-            </div>
+            <form action="/api/checkout_sessionsD" method="POST">
+      <section>
+        <button className="buy-now" type="submit" role="link">
+          Buy Now
+        </button>
+      </section>
+    </form>
+    </div>
           </div>
       </div>
       <div className='peep-conainer'>
-            You may also like
+      <h3>You may also like</h3>
+            <Link href="/adidas">
+            <img src={"https://media.kohlsimg.com/is/image/kohls/4844670_Mini_Monogram_Black?"} data-was-processed="true" width={250} height={250} className="product-image-T" />
+            </Link>
       </div>
     </div>
   )
