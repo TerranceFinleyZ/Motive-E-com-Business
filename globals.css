@@ -16,6 +16,10 @@ a {
   text-decoration: none;
 }
 
+b {
+  color: red;
+}
+
 .main-container{
 max-width: 1400px; 
 margin: auto;
@@ -125,6 +129,15 @@ span {
   transition: transform 0.5s ease;
 }
 
+.product-image-D {
+  border-radius: 15px;
+ background-color: #ebebeb;
+  transform: scale(1, 1);
+  transition: transform 0.5s ease;
+  width: 350px;
+  height: 350px;
+}
+
 .product-name{
   font-weight: 500;
 }
@@ -132,6 +145,15 @@ span {
   font-weight: 800;
   margin-top: 6px;
   color: black;
+}
+
+.peep-conainer {
+  align-items: center;
+  text-align: center;
+  padding: 40px;
+  font-size: 35px;
+  color: #fff;
+  font-family: fantasy;
 }
 
 .hero-banner-container{
@@ -329,6 +351,12 @@ text-align: end;
   font-family: initial;
 }
 
+.footer-container h8 {
+  font-size: 18px;
+  color: grey;
+  font-family: initial;
+}
+
  .cart-heading{
   display: flex;
   align-items: center;
@@ -444,7 +472,9 @@ padding: 30px 65px;
  gap: 40px;
  margin: 40px;
  margin-top: 60px;
- color: #324d67;
+ color: #fff;
+ justify-content: center;
+ align-content: center;
 
 }
 
@@ -477,6 +507,12 @@ padding: 30px 65px;
 .selected-image{
   background-color:#f02d34;
 }
+
+.guts {
+  background-image: url("https://cdn.wallpapersafari.com/80/30/fvp89d.jpg");
+  width: 100%;
+  height: 100%;
+}
 .reviews{
   color: #f02d34;
   margin-top: 10px;
@@ -492,7 +528,7 @@ padding: 30px 65px;
   margin-top: 10px;
 }
 .reviews p{
-  color: #324d67;
+  color: #fff;
   margin-top: 0px;
 }
 .product-detail-desc .price{
@@ -550,7 +586,8 @@ padding: 30px 65px;
 }
 .quantity-desc{
   border: 1px solid gray;
-padding: 6px;
+padding: 0px;
+background: #fff;
 }
 .quantity-desc span{
   font-size: 16px;
@@ -564,6 +601,7 @@ padding: 6px;
 .quantity-desc .num{
   border-right: 1px solid gray;
   font-size: 20px;
+  color: green;
 }
 .quantity-desc .plus{
   color: rgb(49, 168, 49);
@@ -586,6 +624,14 @@ padding: 6px;
   gap: 15px;
   margin-top: 20px;
 }
+
+.product-image-T {
+      /* display: flex; */
+      padding: 35px;
+      border-radius: 45px;
+      justify-content: center;  
+}
+
 .max-qty{
   font-weight: 500;
   color: #f02d34;
@@ -648,7 +694,7 @@ margin-top: 160px;
     height: 560px;
   }
   .hero-banner-image{
-    width: 77%;
+    width: 0%;
     height: 62%;
     top: -2%;
     right: -6%;
@@ -658,7 +704,7 @@ margin-top: 160px;
     margin-top: 80px;
   }
   .footer-banner-image{
-    width: 77%;
+    width: 0%;
     left: 30%;
     top: 6%;
     height: 56%
@@ -689,6 +735,7 @@ margin-top: 160px;
   }
   .hero-banner-container h1{
     font-size: 50px;
+    margin-left: unset;
   }
  .hero-banner-container h3{
     font-size: 40px;
